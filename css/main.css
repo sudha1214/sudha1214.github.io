@@ -19,4 +19,11 @@ ul li {
 #test p {
 	text-align: center;
 }
+#test input {
+	display: block;
+	margin: 0 auto;
+	margin-left: 42%;
+	width: 5%;
+	margin-bottom: 0.1%
+}
 

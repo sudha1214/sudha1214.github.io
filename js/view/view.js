@@ -9,7 +9,7 @@ define(function(require) {
         },
         render: function() {
 
-        	$('#buttonList').html(_.template($("#button_template").html()));
+        	//$('#buttonList').html(_.template($("#button_template").html()));
 
         },
         events : {
@@ -21,7 +21,7 @@ define(function(require) {
         addButton: function() {
         	
         	i++;
-            $(' #fileLoad').empty();
+            //$(' #fileLoad').empty();
         	var buttonAdded = "button" + i;
         	$('.removeNothing').remove();
          
