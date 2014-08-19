@@ -1,0 +1,22 @@
+.container-fluid {
+	width: 100%;
+	text-align: center;
+}
+ul {
+	text-decoration: none;
+	list-style: none;
+}
+ul li {
+	display: inline;
+}
+.removeNothing {
+	color: red;
+	font-weight: bold;
+}
+#buttonList {
+	margin-top: 5%;
+}
+#test p {
+	text-align: center;
+}
+

@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title> Backbone Project </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    </head>
+    <body>
+        <script type="text/template" id="button_template">
+            <ul>
+                <li> <input id="addButton" type="button" class="btn btn-primary btn-small" name="addButton" value="Add Button">   </li>
+            	<li> <input id="removeButton" type="button" class="btn btn-primary btn-small" name="removeButton" value="Remove Button">  </li>
+            	<li> <input id="loadFile" type="button" class="btn btn-primary btn-small" name="loadFile" value="Load File">  </li>
+            </ul>
+        </script>
+        <div class="content container-fluid">
+
+        	<div id="buttonList"> </div>
+            <div id="test"> </div>
+            <div id="fileLoad"> </div>
+            
+        </div>
+        
+        <script src="bower_components/requirejs/require.js" data-main="config.js" type="text/javascript">
+        </script>
+    </body>
+</html>
